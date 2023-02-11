@@ -10,7 +10,7 @@ public class PlayerChanger : MonoBehaviour
 	public bool directlySpawned = false;
 
 
-	private void Start()
+	private void Update()
 	{
 		if (GameObject.Find("Small Player")) { currentFormat = 0; }
 		else { currentFormat = 1; }
