@@ -626,7 +626,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2540120764397278349, guid: 561bb7e334b5ef74891967a1adf2b559, type: 3}
+      - m_Target: {fileID: 3924995269003826196, guid: 561bb7e334b5ef74891967a1adf2b559, type: 3}
         m_TargetAssemblyTypeName: LevelLoader, Assembly-CSharp
         m_MethodName: LoadScene
         m_Mode: 1
@@ -885,9 +885,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2540120764397278349, guid: 561bb7e334b5ef74891967a1adf2b559, type: 3}
+      - m_Target: {fileID: 3924995269003826196, guid: 561bb7e334b5ef74891967a1adf2b559, type: 3}
         m_TargetAssemblyTypeName: LevelLoader, Assembly-CSharp
-        m_MethodName: LoadScene
+        m_MethodName: ExitScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1097,5 +1097,5 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
