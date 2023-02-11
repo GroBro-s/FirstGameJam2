@@ -24,7 +24,6 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetButton("Jump") && IsGrounded())
         {
             Jump();
-            
         }
     }
 
@@ -36,9 +35,9 @@ public class PlayerMovement : MonoBehaviour
             case "Small Player":
                 var smallGroundCheck = Physics2D.Raycast(transform.position, Vector2.down, 1f);
                 return smallGroundCheck.collider != null && smallGroundCheck.collider.CompareTag("Ground");
-            /*case "Big Player":
-                var bigGroundCheck = Physics2D.Raycast(transform.position, Vector2.down, 5.1f);
-                return bigGroundCheck.collider != null && bigGroundCheck.collider.CompareTag("Ground");*/
+            case "Big Player":
+                var bigGroundCheck = Physics2D.Raycast(transform.position, Vector2.down, 2.1f);
+                return bigGroundCheck.collider != null && bigGroundCheck.collider.CompareTag("Ground");
             default: 
                 return false;
 		}
